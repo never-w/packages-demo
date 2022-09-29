@@ -18,7 +18,6 @@
   },
   "lint-staged": {
     "*.ts": [
-      "bash -c tsc --noEmit",
       "eslint --fix",
       "git add"
     ]

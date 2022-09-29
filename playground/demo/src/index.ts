@@ -1,10 +1,10 @@
-import pkg1 from '@qftjs/monorepo1';
+import pkg1 from "@qftjs/monorepo1"
 
 function fun2() {
-  pkg1();
-  console.log('我是playground');
+  pkg1()
+  console.log("我是playground")
 }
 
-fun2();
+fun2()
 
-export default fun2;
+export default fun2

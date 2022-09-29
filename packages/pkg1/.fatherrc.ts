@@ -1,5 +1,9 @@
+// export default {
+//   target: 'node',
+//   cjs: { type: 'babel', lazy: true },
+//   disableTypeCheck: false,
+// };
 export default {
-  target: 'node',
-  cjs: { type: 'babel', lazy: true },
-  disableTypeCheck: false,
-};
+  esm: "babel",
+  cjs: "babel",
+}
